@@ -1,0 +1,1552 @@
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:63:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 11:49:26 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 4144,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 76652544,
+      heapTotal: 57696256,
+      heapUsed: 28203328,
+      external: 1398725,
+      arrayBuffers: 161396
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 9354.828 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 11:49:26'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:63:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 11:58:11 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 14952,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 75505664,
+      heapTotal: 57958400,
+      heapUsed: 28890392,
+      external: 1388568,
+      arrayBuffers: 151239
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 9879.109 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 11:58:11'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:63:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 12:04:37 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 19004,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 74797056,
+      heapTotal: 57434112,
+      heapUsed: 28855184,
+      external: 1369913,
+      arrayBuffers: 132584
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10265.593 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 12:04:37'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:63:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:63:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 12:06:25 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 19068,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 75251712,
+      heapTotal: 57696256,
+      heapUsed: 28221848,
+      external: 1398725,
+      arrayBuffers: 161396
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10373.187 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 12:06:25'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:69:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:69:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:69:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 12:10:53 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 3212,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 74792960,
+      heapTotal: 57434112,
+      heapUsed: 29088056,
+      external: 1393752,
+      arrayBuffers: 156423
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10641.203 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 69,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 12:10:53'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:70:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:70:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:70:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 12:10:55 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 18936,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 76746752,
+      heapTotal: 57958400,
+      heapUsed: 27871536,
+      external: 1404357,
+      arrayBuffers: 167028
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10643.546 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 70,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 12:10:55'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:75:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:75:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:75:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 12:11:53 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 19352,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 76697600,
+      heapTotal: 57958400,
+      heapUsed: 28077304,
+      external: 1411042,
+      arrayBuffers: 173713
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10701 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 12:11:53'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:70:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:70:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:70:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 12:12:15 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 2352,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 76042240,
+      heapTotal: 57696256,
+      heapUsed: 28879048,
+      external: 1375781,
+      arrayBuffers: 138452
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10723.593 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 70,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 12:12:15'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (D:\inventario-api\node_modules\express\lib\application.js:217:11)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:70:5)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:70:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (D:\\inventario-api\\node_modules\\express\\lib\\application.js:217:11)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:70:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Thu Aug 21 2025 12:12:45 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 19064,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 76673024,
+      heapTotal: 57696256,
+      heapUsed: 28221664,
+      external: 1403106,
+      arrayBuffers: 165777
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10753.406 },
+  trace: [
+    {
+      column: 11,
+      file: 'D:\\inventario-api\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 70,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 128,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 12:12:45'
+}
+{
+  error: Error: Cannot find module './config/database'
+  Require stack:
+  - D:\inventario-api\src\models\Purchase.js
+  - D:\inventario-api\src\models\index.js
+  - D:\inventario-api\src\routes\auth.js
+  - D:\inventario-api\src\app.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+      at Module._load (node:internal/modules/cjs/loader:981:27)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (D:\inventario-api\src\models\Purchase.js:10:23)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\inventario-api\\src\\models\\Purchase.js',
+      'D:\\inventario-api\\src\\models\\index.js',
+      'D:\\inventario-api\\src\\routes\\auth.js',
+      'D:\\inventario-api\\src\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module './config/database'\n" +
+    'Require stack:\n' +
+    '- D:\\inventario-api\\src\\models\\Purchase.js\n' +
+    '- D:\\inventario-api\\src\\models\\index.js\n' +
+    '- D:\\inventario-api\\src\\routes\\auth.js\n' +
+    '- D:\\inventario-api\\src\\app.js\n' +
+    "Error: Cannot find module './config/database'\n" +
+    'Require stack:\n' +
+    '- D:\\inventario-api\\src\\models\\Purchase.js\n' +
+    '- D:\\inventario-api\\src\\models\\index.js\n' +
+    '- D:\\inventario-api\\src\\routes\\auth.js\n' +
+    '- D:\\inventario-api\\src\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\models\\Purchase.js:10:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: "Error: Cannot find module './config/database'\n" +
+    'Require stack:\n' +
+    '- D:\\inventario-api\\src\\models\\Purchase.js\n' +
+    '- D:\\inventario-api\\src\\models\\index.js\n' +
+    '- D:\\inventario-api\\src\\routes\\auth.js\n' +
+    '- D:\\inventario-api\\src\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\models\\Purchase.js:10:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Thu Aug 21 2025 17:26:51 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 18892,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 68599808,
+      heapTotal: 35414016,
+      heapUsed: 24633480,
+      external: 1716820,
+      arrayBuffers: 479491
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29598.89 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1140,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 981,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'D:\\inventario-api\\src\\models\\Purchase.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 17:26:51'
+}
+{
+  error: Error: Cannot find module './config/database'
+  Require stack:
+  - D:\inventario-api\src\routes\purchases.js
+  - D:\inventario-api\src\app.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+      at Module._load (node:internal/modules/cjs/loader:981:27)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (D:\inventario-api\src\routes\purchases.js:10:23)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\inventario-api\\src\\routes\\purchases.js',
+      'D:\\inventario-api\\src\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module './config/database'\n" +
+    'Require stack:\n' +
+    '- D:\\inventario-api\\src\\routes\\purchases.js\n' +
+    '- D:\\inventario-api\\src\\app.js\n' +
+    "Error: Cannot find module './config/database'\n" +
+    'Require stack:\n' +
+    '- D:\\inventario-api\\src\\routes\\purchases.js\n' +
+    '- D:\\inventario-api\\src\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\routes\\purchases.js:10:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  stack: "Error: Cannot find module './config/database'\n" +
+    'Require stack:\n' +
+    '- D:\\inventario-api\\src\\routes\\purchases.js\n' +
+    '- D:\\inventario-api\\src\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:981:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\routes\\purchases.js:10:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)',
+  exception: true,
+  date: 'Thu Aug 21 2025 17:27:02 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 16988,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 75624448,
+      heapTotal: 57696256,
+      heapUsed: 24200360,
+      external: 1349872,
+      arrayBuffers: 112543
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 29610.187 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1140,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 981,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'D:\\inventario-api\\src\\routes\\purchases.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 17:27:02'
+}
+{
+  error: ReferenceError: Cannot access 'testConnection' before initialization
+      at Object.<anonymous> (D:\inventario-api\src\config\database.js:34:3)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (D:\inventario-api\src\app.js:10:23)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'testConnection' before initialization\n" +
+    "ReferenceError: Cannot access 'testConnection' before initialization\n" +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\config\\database.js:34:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:10:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  stack: "ReferenceError: Cannot access 'testConnection' before initialization\n" +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\config\\database.js:34:3)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (D:\\inventario-api\\src\\app.js:10:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)',
+  exception: true,
+  date: 'Thu Aug 21 2025 18:31:27 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 19948,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 66334720,
+      heapTotal: 35151872,
+      heapUsed: 21555312,
+      external: 1593801,
+      arrayBuffers: 356472
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 33475.515 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\inventario-api\\src\\config\\database.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'D:\\inventario-api\\src\\app.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 18:31:27'
+}

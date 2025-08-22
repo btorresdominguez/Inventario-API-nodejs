@@ -1,0 +1,44 @@
+{
+  "name": "inventario-api",
+  "version": "1.0.0",
+  "description": "API REST para sistema de inventario con roles de usuario",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "migrate": "npx sequelize-cli db:migrate",
+    "seed": "node src/utils/seedData.js",
+    "docs": "apidoc -i src/routes/ -o docs/"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "api",
+    "inventario"
+  ],
+  "author": "Beverly",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "helmet": "^7.2.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.14.3",
+    "sequelize": "^6.37.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.11.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "apidoc": "^1.2.0",
+    "nodemon": "^3.0.2",
+    "sequelize-cli": "^6.6.2"
+  }
+}

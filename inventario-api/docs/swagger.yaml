@@ -1,0 +1,744 @@
+openapi: 3.0.3
+info:
+  title: API Inventario
+  description: Documentación de la API de Inventario con ejemplos de uso
+  version: 1.0.0
+  contact:
+    name: Soporte API
+    email: soporte@empresa.com
+
+servers:
+  - url: http://localhost:3000
+    description: Servidor local
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        nombre:
+          type: string
+          example: "Juan Admin"
+        email:
+          type: string
+          format: email
+          example: "juan.admin@empresa.com"
+        role:
+          type: string
+          enum: [admin, client]
+          example: "admin"
+        activo:
+          type: boolean
+          example: true
+        created_at:
+          type: string
+          format: date-time
+          example: "2024-01-20T10:30:00.000Z"
+
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        numero_lote:
+          type: string
+          example: "LAPTOP001"
+        nombre:
+          type: string
+          example: "MacBook Air M2"
+        precio:
+          type: number
+          format: decimal
+          example: 1299.99
+        cantidad_disponible:
+          type: integer
+          example: 5
+        descripcion:
+          type: string
+          example: "MacBook Air con chip M2, 8GB RAM, 256GB SSD"
+        activo:
+          type: boolean
+          example: true
+        created_at:
+          type: string
+          format: date-time
+
+    Purchase:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        user_id:
+          type: integer
+          example: 2
+        fecha_compra:
+          type: string
+          format: date-time
+          example: "2024-01-20T15:30:00.000Z"
+        total:
+          type: string
+          example: "159.97"
+        estado:
+          type: string
+          example: "completada"
+        numero_factura:
+          type: string
+          example: "FAC-1705756200000-001"
+
+    PurchaseDetail:
+      type: object
+      properties:
+        id:
+          type: integer
+        cantidad:
+          type: integer
+          example: 2
+        precio_unitario:
+          type: string
+          example: "79.99"
+        subtotal:
+          type: string
+          example: "159.98"
+        product:
+          $ref: '#/components/schemas/Product'
+
+    ApiResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+        data:
+          type: object
+        errors:
+          type: array
+          items:
+            type: string
+
+    RegisterRequest:
+      type: object
+      required:
+        - nombre
+        - email
+        - password
+      properties:
+        nombre:
+          type: string
+          example: "Juan Admin"
+        email:
+          type: string
+          format: email
+          example: "juan.admin@empresa.com"
+        password:
+          type: string
+          minLength: 6
+          example: "password123"
+        role:
+          type: string
+          enum: [admin, client]
+          example: "admin"
+
+    LoginRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          example: "juan.admin@empresa.com"
+        password:
+          type: string
+          example: "password123"
+
+    ProductRequest:
+      type: object
+      required:
+        - numero_lote
+        - nombre
+        - precio
+        - cantidad_disponible
+      properties:
+        numero_lote:
+          type: string
+          example: "LAPTOP001"
+        nombre:
+          type: string
+          example: "MacBook Air M2"
+        precio:
+          type: number
+          format: decimal
+          example: 1299.99
+        cantidad_disponible:
+          type: integer
+          minimum: 0
+          example: 5
+        descripcion:
+          type: string
+          example: "MacBook Air con chip M2, 8GB RAM, 256GB SSD"
+
+    PurchaseRequest:
+      type: object
+      required:
+        - productos
+      properties:
+        productos:
+          type: array
+          items:
+            type: object
+            required:
+              - product_id
+              - cantidad
+            properties:
+              product_id:
+                type: integer
+                example: 1
+              cantidad:
+                type: integer
+                minimum: 1
+                example: 2
+
+security:
+  - BearerAuth: []
+
+paths:
+  # Autenticación
+  /api/auth/register:
+    post:
+      tags:
+        - Autenticación
+      summary: Registrar nuevo usuario
+      description: Registra un nuevo usuario en el sistema (admin o cliente)
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequest'
+            examples:
+              admin:
+                summary: Registrar Admin
+                value:
+                  nombre: "Juan Admin"
+                  email: "juan.admin@empresa.com"
+                  password: "password123"
+                  role: "admin"
+              cliente:
+                summary: Registrar Cliente
+                value:
+                  nombre: "María Cliente"
+                  email: "maria@gmail.com"
+                  password: "123456"
+      responses:
+        '201':
+          description: Usuario registrado exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/User'
+                      token:
+                        type: string
+                        example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        '400':
+          description: Error de validación
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiResponse'
+
+  /api/auth/login:
+    post:
+      tags:
+        - Autenticación
+      summary: Iniciar sesión
+      description: Autentica un usuario y retorna un token JWT
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: Login exitoso
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/User'
+                      token:
+                        type: string
+        '401':
+          description: Credenciales inválidas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiResponse'
+
+  # Productos
+  /api/products:
+    get:
+      tags:
+        - Productos
+      summary: Listar productos
+      description: Obtiene una lista paginada de productos con filtros opcionales
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+          description: Número de página
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 10
+          description: Elementos por página
+        - name: search
+          in: query
+          schema:
+            type: string
+          description: Término de búsqueda
+      responses:
+        '200':
+          description: Lista de productos obtenida exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          products:
+                            type: array
+                            items:
+                              $ref: '#/components/schemas/Product'
+                          pagination:
+                            type: object
+                            properties:
+                              page:
+                                type: integer
+                              limit:
+                                type: integer
+                              total:
+                                type: integer
+                              pages:
+                                type: integer
+
+    post:
+      tags:
+        - Productos
+      summary: Crear producto
+      description: Crea un nuevo producto (solo administradores)
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProductRequest'
+      responses:
+        '201':
+          description: Producto creado exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/Product'
+        '401':
+          description: Token faltante o inválido
+        '403':
+          description: Sin permisos de administrador
+        '400':
+          description: Error de validación
+
+  /api/products/{id}:
+    get:
+      tags:
+        - Productos
+      summary: Obtener producto por ID
+      description: Obtiene los detalles de un producto específico
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID del producto
+      responses:
+        '200':
+          description: Producto encontrado
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/Product'
+        '404':
+          description: Producto no encontrado
+
+    put:
+      tags:
+        - Productos
+      summary: Actualizar producto
+      description: Actualiza un producto existente (solo administradores)
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID del producto
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                numero_lote:
+                  type: string
+                nombre:
+                  type: string
+                precio:
+                  type: number
+                  format: decimal
+                cantidad_disponible:
+                  type: integer
+                descripcion:
+                  type: string
+              example:
+                precio: 1199.99
+                cantidad_disponible: 8
+      responses:
+        '200':
+          description: Producto actualizado exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/Product'
+        '401':
+          description: Token faltante o inválido
+        '403':
+          description: Sin permisos de administrador
+        '404':
+          description: Producto no encontrado
+
+    delete:
+      tags:
+        - Productos
+      summary: Eliminar producto
+      description: Elimina un producto (soft delete - solo administradores)
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID del producto
+      responses:
+        '200':
+          description: Producto eliminado exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiResponse'
+        '401':
+          description: Token faltante o inválido
+        '403':
+          description: Sin permisos de administrador
+        '404':
+          description: Producto no encontrado
+
+  # Compras
+  /api/purchases:
+    get:
+      tags:
+        - Compras
+      summary: Historial de compras del usuario
+      description: Obtiene el historial de compras del usuario autenticado
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 10
+      responses:
+        '200':
+          description: Historial de compras obtenido exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          purchases:
+                            type: array
+                            items:
+                              allOf:
+                                - $ref: '#/components/schemas/Purchase'
+                                - type: object
+                                  properties:
+                                    details:
+                                      type: array
+                                      items:
+                                        $ref: '#/components/schemas/PurchaseDetail'
+                          pagination:
+                            type: object
+
+    post:
+      tags:
+        - Compras
+      summary: Realizar compra
+      description: Procesa una nueva compra con múltiples productos
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PurchaseRequest'
+      responses:
+        '201':
+          description: Compra realizada exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        allOf:
+                          - $ref: '#/components/schemas/Purchase'
+                          - type: object
+                            properties:
+                              details:
+                                type: array
+                                items:
+                                  $ref: '#/components/schemas/PurchaseDetail'
+        '400':
+          description: Error de validación o stock insuficiente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiResponse'
+              example:
+                success: false
+                message: "Stock insuficiente para Laptop HP. Disponible: 2, Solicitado: 5"
+        '401':
+          description: Token faltante o inválido
+
+  /api/purchases/{id}:
+    get:
+      tags:
+        - Compras
+      summary: Ver factura específica
+      description: Obtiene los detalles de una compra específica
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID de la compra
+      responses:
+        '200':
+          description: Factura encontrada
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        allOf:
+                          - $ref: '#/components/schemas/Purchase'
+                          - type: object
+                            properties:
+                              details:
+                                type: array
+                                items:
+                                  $ref: '#/components/schemas/PurchaseDetail'
+        '404':
+          description: Compra no encontrada
+        '403':
+          description: No tienes acceso a esta compra
+
+  /api/purchases/history:
+    get:
+      tags:
+        - Compras
+      summary: Historial de productos comprados
+      description: Obtiene un resumen de todos los productos que ha comprado el usuario
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Historial de productos obtenido exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            product:
+                              $ref: '#/components/schemas/Product'
+                            total_comprado:
+                              type: integer
+                            ultima_compra:
+                              type: string
+                              format: date-time
+
+  # Reportes Administrativos
+  /api/purchases/admin/sales:
+    get:
+      tags:
+        - Reportes Admin
+      summary: Reporte de ventas
+      description: Obtiene un reporte completo de ventas (solo administradores)
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: startDate
+          in: query
+          schema:
+            type: string
+            format: date
+          description: Fecha de inicio (YYYY-MM-DD)
+          example: "2024-01-01"
+        - name: endDate
+          in: query
+          schema:
+            type: string
+            format: date
+          description: Fecha de fin (YYYY-MM-DD)
+          example: "2024-01-31"
+      responses:
+        '200':
+          description: Reporte de ventas obtenido exitosamente
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          resumen:
+                            type: object
+                            properties:
+                              total_ventas:
+                                type: string
+                                example: "2459.95"
+                              total_compras:
+                                type: integer
+                                example: 15
+                              clientes_unicos:
+                                type: integer
+                                example: 8
+                              promedio_por_compra:
+                                type: string
+                                example: "163.33"
+                          compras:
+                            type: array
+                            items:
+                              allOf:
+                                - $ref: '#/components/schemas/Purchase'
+                                - type: object
+                                  properties:
+                                    user:
+                                      type: object
+                                      properties:
+                                        id:
+                                          type: integer
+                                        nombre:
+                                          type: string
+                                        email:
+                                          type: string
+                                    details:
+                                      type: array
+                                      items:
+                                        $ref: '#/components/schemas/PurchaseDetail'
+        '401':
+          description: Token faltante o inválido
+        '403':
+          description: Sin permisos de administrador
+
+tags:
+  - name: Autenticación
+    description: Endpoints para registro y login de usuarios
+  - name: Productos
+    description: Gestión de productos del inventario
+  - name: Compras
+    description: Sistema de compras para clientes
+  - name: Reportes Admin
+    description: Reportes administrativos y estadísticas

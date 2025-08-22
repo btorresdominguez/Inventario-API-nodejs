@@ -1,0 +1,480 @@
+{
+  error: Error
+      at Query.run (D:\inventario-api\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+      at D:\inventario-api\node_modules\sequelize\lib\sequelize.js:315:28
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async MySQLQueryInterface.setIsolationLevel (D:\inventario-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:517:12)
+      at async Transaction.begin (D:\inventario-api\node_modules\sequelize\lib\transaction.js:114:5)
+      at async Transaction.prepareEnvironment (D:\inventario-api\node_modules\sequelize\lib\transaction.js:89:7)
+      at async Sequelize.transaction (D:\inventario-api\node_modules\sequelize\lib\sequelize.js:500:7)
+      at async D:\inventario-api\src\routes\purchases.js:23:23 {
+    name: 'SequelizeDatabaseError',
+    parent: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    original: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+    parameters: {}
+  },
+  level: 'error',
+  message: "unhandledRejection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1\n" +
+    'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:23:23',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:23:23',
+  rejection: true,
+  date: 'Thu Aug 21 2025 17:57:27 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 11676,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 86421504,
+      heapTotal: 61366272,
+      heapUsed: 28792920,
+      external: 1352433,
+      arrayBuffers: 83775
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 31434.937 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js',
+      function: 'Query.run',
+      line: 52,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: null,
+      line: 315,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js',
+      function: 'async MySQLQueryInterface.setIsolationLevel',
+      line: 517,
+      method: 'setIsolationLevel',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.begin',
+      line: 114,
+      method: 'begin',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.prepareEnvironment',
+      line: 89,
+      method: 'prepareEnvironment',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: 'async Sequelize.transaction',
+      line: 500,
+      method: 'transaction',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'async D:\\inventario-api\\src\\routes\\purchases.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 17:57:27'
+}
+{
+  error: Error
+      at Query.run (D:\inventario-api\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+      at D:\inventario-api\node_modules\sequelize\lib\sequelize.js:315:28
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async MySQLQueryInterface.setIsolationLevel (D:\inventario-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:517:12)
+      at async Transaction.begin (D:\inventario-api\node_modules\sequelize\lib\transaction.js:114:5)
+      at async Transaction.prepareEnvironment (D:\inventario-api\node_modules\sequelize\lib\transaction.js:89:7)
+      at async Sequelize.transaction (D:\inventario-api\node_modules\sequelize\lib\sequelize.js:500:7)
+      at async D:\inventario-api\src\routes\purchases.js:19:23 {
+    name: 'SequelizeDatabaseError',
+    parent: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    original: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+    parameters: {}
+  },
+  level: 'error',
+  message: "unhandledRejection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1\n" +
+    'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  rejection: true,
+  date: 'Thu Aug 21 2025 18:21:19 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 21240,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 62853120,
+      heapTotal: 27095040,
+      heapUsed: 25386064,
+      external: 1428321,
+      arrayBuffers: 162366
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 32867.812 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js',
+      function: 'Query.run',
+      line: 52,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: null,
+      line: 315,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js',
+      function: 'async MySQLQueryInterface.setIsolationLevel',
+      line: 517,
+      method: 'setIsolationLevel',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.begin',
+      line: 114,
+      method: 'begin',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.prepareEnvironment',
+      line: 89,
+      method: 'prepareEnvironment',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: 'async Sequelize.transaction',
+      line: 500,
+      method: 'transaction',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'async D:\\inventario-api\\src\\routes\\purchases.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 18:21:19'
+}
+{
+  error: Error
+      at Query.run (D:\inventario-api\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+      at D:\inventario-api\node_modules\sequelize\lib\sequelize.js:315:28
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async MySQLQueryInterface.setIsolationLevel (D:\inventario-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:517:12)
+      at async Transaction.begin (D:\inventario-api\node_modules\sequelize\lib\transaction.js:114:5)
+      at async Transaction.prepareEnvironment (D:\inventario-api\node_modules\sequelize\lib\transaction.js:89:7)
+      at async Sequelize.transaction (D:\inventario-api\node_modules\sequelize\lib\sequelize.js:500:7)
+      at async D:\inventario-api\src\routes\purchases.js:19:23 {
+    name: 'SequelizeDatabaseError',
+    parent: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    original: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+    parameters: {}
+  },
+  level: 'error',
+  message: "unhandledRejection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1\n" +
+    'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  rejection: true,
+  date: 'Thu Aug 21 2025 18:27:11 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 2148,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 63258624,
+      heapTotal: 27357184,
+      heapUsed: 25309816,
+      external: 1428321,
+      arrayBuffers: 162366
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 33219.656 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js',
+      function: 'Query.run',
+      line: 52,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: null,
+      line: 315,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js',
+      function: 'async MySQLQueryInterface.setIsolationLevel',
+      line: 517,
+      method: 'setIsolationLevel',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.begin',
+      line: 114,
+      method: 'begin',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.prepareEnvironment',
+      line: 89,
+      method: 'prepareEnvironment',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: 'async Sequelize.transaction',
+      line: 500,
+      method: 'transaction',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'async D:\\inventario-api\\src\\routes\\purchases.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 18:27:11'
+}

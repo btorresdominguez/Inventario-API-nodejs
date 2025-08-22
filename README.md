@@ -8,7 +8,6 @@ API REST desarrollada con Node.js, Express, Sequelize y MySQL para la gestión d
 - CRUD completo de productos (solo administradores)
 - Sistema de compras para clientes
 - Historial de compras y facturas
-- Validación de datos con Joi
 - Sistema de logs con Winston
 - Manejo de errores centralizado
 - Documentación API con ApiDoc

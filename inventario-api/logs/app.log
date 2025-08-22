@@ -1,0 +1,3689 @@
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 11:45:43'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 11:45:43'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 11:45:44'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 11:45:44'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 11:45:44'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 11:45:44'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 11:46:06'
+}
+{
+  message: '::1 - - [21/Aug/2025:16:46:06 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 11:46:06'
+}
+{
+  message: 'POST /api/auth/login - 200 - 284ms',
+  level: 'info',
+  timestamp: '2025-08-21 11:46:06'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Error en autenticación: invalid signature',
+  level: 'error',
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  timestamp: '2025-08-21 11:46:33'
+}
+{
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  body: {},
+  params: {},
+  query: { page: '1', limit: '10' },
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  level: 'error',
+  message: 'Error en GET /api/products?page=1&limit=10: invalid signature',
+  timestamp: '2025-08-21 11:46:33'
+}
+{
+  message: '::1 - - [21/Aug/2025:16:46:33 +0000] "GET /api/products?page=1&limit=10 HTTP/1.1" 401 46 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 11:46:33'
+}
+{
+  message: 'GET /api/products?page=1&limit=10 - 401 - 24ms',
+  level: 'info',
+  timestamp: '2025-08-21 11:46:33'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 11:49:26'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 11:50:40'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 11:50:41'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 11:50:43'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 11:50:43'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 11:50:43'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 11:50:43'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Error en autenticación: invalid signature',
+  level: 'error',
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  timestamp: '2025-08-21 11:53:32'
+}
+{
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  body: {},
+  params: {},
+  query: { page: '1', limit: '10' },
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  level: 'error',
+  message: 'Error en GET /api/purchases?page=1&limit=10: invalid signature',
+  timestamp: '2025-08-21 11:53:32'
+}
+{
+  message: '::1 - - [21/Aug/2025:16:53:32 +0000] "GET /api/purchases?page=1&limit=10 HTTP/1.1" 401 46 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 11:53:32'
+}
+{
+  message: 'GET /api/purchases?page=1&limit=10 - 401 - 17ms',
+  level: 'info',
+  timestamp: '2025-08-21 11:53:32'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:42'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:42'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:43'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:43'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:43'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:43'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Error en autenticación: invalid signature',
+  level: 'error',
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  timestamp: '2025-08-21 11:55:57'
+}
+{
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  userId: null,
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  body: {},
+  level: 'error',
+  message: 'Error en GET /api/purchases?page=1&limit=10: invalid signature',
+  timestamp: '2025-08-21 11:55:57'
+}
+{
+  message: '::1 - - [21/Aug/2025:16:55:57 +0000] "GET /api/purchases?page=1&limit=10 HTTP/1.1" 401 137 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:57'
+}
+{
+  message: 'GET /api/purchases?page=1&limit=10 - 401 - 15ms',
+  level: 'info',
+  timestamp: '2025-08-21 11:55:57'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 11:58:11'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:04:37'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:06:25'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:10:53'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:10:55'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:11:53'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:15'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:45'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:48'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:48'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:50'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:50'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:50'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 12:12:50'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 12:13:56'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 12:13:56'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 12:13:58'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 12:13:58'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 12:13:58'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 12:13:58'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Error en autenticación: invalid signature',
+  level: 'error',
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  timestamp: '2025-08-21 12:14:05'
+}
+{
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (D:\\inventario-api\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at authenticate (D:\\inventario-api\\src\\middleware\\auth.js:22:25)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\inventario-api\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\inventario-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\inventario-api\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  userId: null,
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  body: {},
+  level: 'error',
+  message: 'Error en GET /api/purchases?page=1&limit=10: invalid signature',
+  timestamp: '2025-08-21 12:14:05'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:14:05 +0000] "GET /api/purchases?page=1&limit=10 HTTP/1.1" 401 177 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:14:05'
+}
+{
+  message: 'GET /api/purchases?page=1&limit=10 - 401 - 17ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:14:05'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 12:14:26'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:14:26 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:14:26'
+}
+{
+  message: 'POST /api/auth/login - 200 - 175ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:14:26'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:15:21 +0000] "GET /api/products?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:15:21'
+}
+{
+  message: 'GET /api/products?page=1&limit=10 - 304 - 22ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:15:21'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:15:59 +0000] "GET /api/products/5 HTTP/1.1" 200 358 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:15:59'
+}
+{
+  message: 'GET /api/products/5 - 200 - 33ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:15:59'
+}
+{
+  message: 'Producto actualizado exitosamente: Auriculares Bluetooth por usuario juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 12:16:29'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:16:29 +0000] "PUT /api/products/5 HTTP/1.1" 200 403 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:16:29'
+}
+{
+  message: 'PUT /api/products/5 - 200 - 45ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:16:29'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:16:37 +0000] "GET /api/products/5 HTTP/1.1" 200 359 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:16:37'
+}
+{
+  message: 'GET /api/products/5 - 200 - 7ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:16:37'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:16:56 +0000] "GET /api/purchases?page=1&limit=10 HTTP/1.1" 200 159 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:16:56'
+}
+{
+  message: 'GET /api/purchases?page=1&limit=10 - 200 - 25ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:16:56'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:17:59 +0000] "GET /api/purchases/admin/sales?startDate=2025-08-21&endDate=2025-08-21 HTTP/1.1" 200 134 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:17:59'
+}
+{
+  message: 'GET /api/purchases/admin/sales?startDate=2025-08-21&endDate=2025-08-21 - 200 - 31ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:17:59'
+}
+{
+  message: 'Acceso denegado para usuario juan.admin@empresa.com con rol admin',
+  level: 'warn',
+  timestamp: '2025-08-21 12:18:44'
+}
+{
+  message: '::1 - - [21/Aug/2025:17:18:44 +0000] "POST /api/purchases HTTP/1.1" 403 75 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 12:18:44'
+}
+{
+  message: 'POST /api/purchases - 403 - 9ms',
+  level: 'info',
+  timestamp: '2025-08-21 12:18:44'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 16:45:38'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:45:38 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:45:38'
+}
+{
+  message: 'POST /api/auth/login - 200 - 1685ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:45:38'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:46:16 +0000] "GET /api/products HTTP/1.1" 200 2037 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:46:16'
+}
+{
+  message: 'GET /api/products - 200 - 337ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:46:16'
+}
+{
+  message: 'Acceso denegado para usuario juan.admin@empresa.com con rol admin',
+  level: 'warn',
+  timestamp: '2025-08-21 16:46:44'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:46:44 +0000] "POST /api/purchases HTTP/1.1" 403 75 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:46:44'
+}
+{
+  message: 'POST /api/purchases - 403 - 398ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:46:44'
+}
+{
+  message: 'Usuario registrado exitosamente: maria@gmail.com con rol cliente',
+  level: 'info',
+  timestamp: '2025-08-21 16:52:22'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:52:22 +0000] "POST /api/auth/register HTTP/1.1" 201 391 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:52:22'
+}
+{
+  message: 'POST /api/auth/register - 201 - 1278ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:52:22'
+}
+{
+  name: 'SequelizeValidationError',
+  errors: [
+    ValidationErrorItem {
+      message: 'Purchase.numero_factura cannot be null',
+      type: 'notNull Violation',
+      path: 'numero_factura',
+      value: null,
+      origin: 'CORE',
+      instance: Purchase {
+        dataValues: {
+          fecha_compra: 2025-08-21T21:53:04.990Z,
+          estado: 'completada',
+          id: null,
+          user_id: 4,
+          total: '1879.97',
+          updatedAt: 2025-08-21T21:53:04.990Z,
+          createdAt: 2025-08-21T21:53:04.990Z
+        },
+        _previousDataValues: { user_id: undefined, total: undefined },
+        uniqno: 1,
+        _changed: Set(2) { 'user_id', 'total' },
+        _options: {
+          isNewRecord: true,
+          _schema: null,
+          _schemaDelimiter: '',
+          attributes: undefined,
+          include: undefined,
+          raw: undefined,
+          silent: undefined
+        },
+        isNewRecord: true
+      },
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  level: 'error',
+  message: 'Error al crear compra: notNull Violation: Purchase.numero_factura cannot be null',
+  stack: 'SequelizeValidationError: notNull Violation: Purchase.numero_factura cannot be null\n' +
+    '    at InstanceValidator._validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async InstanceValidator._validateAndRunHooks (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n' +
+    '    at async InstanceValidator.validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2426:7)\n' +
+    '    at async Purchase.create (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:1362:12)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:80:22',
+  timestamp: '2025-08-21 16:53:04'
+}
+{
+  stack: 'SequelizeValidationError: notNull Violation: Purchase.numero_factura cannot be null\n' +
+    '    at InstanceValidator._validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async InstanceValidator._validateAndRunHooks (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n' +
+    '    at async InstanceValidator.validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2426:7)\n' +
+    '    at async Purchase.create (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:1362:12)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:80:22',
+  userId: 4,
+  ip: '::1',
+  userAgent: 'PostmanRuntime/7.45.0',
+  body: {
+    productos: [ { product_id: 1, cantidad: 2 }, { product_id: 3, cantidad: 1 } ]
+  },
+  level: 'error',
+  message: 'Error en POST /api/purchases: notNull Violation: Purchase.numero_factura cannot be null',
+  timestamp: '2025-08-21 16:53:05'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:53:05 +0000] "POST /api/purchases HTTP/1.1" 400 190 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:53:05'
+}
+{
+  message: 'POST /api/purchases - 400 - 214ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:53:05'
+}
+{
+  message: 'Login exitoso para usuario: maria@gmail.com',
+  level: 'info',
+  timestamp: '2025-08-21 16:55:42'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:55:42 +0000] "POST /api/auth/login HTTP/1.1" 200 373 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:55:42'
+}
+{
+  message: 'POST /api/auth/login - 200 - 228ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:55:42'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 16:56:56'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:56:56 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:56:56'
+}
+{
+  message: 'POST /api/auth/login - 200 - 153ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:56:56'
+}
+{
+  message: 'Producto creado exitosamente: MacBook Air M2 por usuario juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 16:57:31'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:57:31 +0000] "POST /api/products HTTP/1.1" 201 361 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:57:31'
+}
+{
+  message: 'POST /api/products - 201 - 745ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:57:31'
+}
+{
+  message: '::1 - - [21/Aug/2025:21:58:13 +0000] "GET /api/products HTTP/1.1" 200 2244 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 16:58:13'
+}
+{
+  message: 'GET /api/products - 200 - 14ms',
+  level: 'info',
+  timestamp: '2025-08-21 16:58:13'
+}
+{
+  name: 'SequelizeValidationError',
+  errors: [
+    ValidationErrorItem {
+      message: 'Purchase.numero_factura cannot be null',
+      type: 'notNull Violation',
+      path: 'numero_factura',
+      value: null,
+      origin: 'CORE',
+      instance: Purchase {
+        dataValues: {
+          fecha_compra: 2025-08-21T22:00:53.741Z,
+          estado: 'completada',
+          id: null,
+          user_id: 4,
+          total: '2759.97',
+          updatedAt: 2025-08-21T22:00:53.741Z,
+          createdAt: 2025-08-21T22:00:53.741Z
+        },
+        _previousDataValues: { user_id: undefined, total: undefined },
+        uniqno: 1,
+        _changed: Set(2) { 'user_id', 'total' },
+        _options: {
+          isNewRecord: true,
+          _schema: null,
+          _schemaDelimiter: '',
+          attributes: undefined,
+          include: undefined,
+          raw: undefined,
+          silent: undefined
+        },
+        isNewRecord: true
+      },
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  level: 'error',
+  message: 'Error al crear compra: notNull Violation: Purchase.numero_factura cannot be null',
+  stack: 'SequelizeValidationError: notNull Violation: Purchase.numero_factura cannot be null\n' +
+    '    at InstanceValidator._validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async InstanceValidator._validateAndRunHooks (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n' +
+    '    at async InstanceValidator.validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2426:7)\n' +
+    '    at async Purchase.create (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:1362:12)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:80:22',
+  timestamp: '2025-08-21 17:00:53'
+}
+{
+  stack: 'SequelizeValidationError: notNull Violation: Purchase.numero_factura cannot be null\n' +
+    '    at InstanceValidator._validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async InstanceValidator._validateAndRunHooks (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n' +
+    '    at async InstanceValidator.validate (D:\\inventario-api\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2426:7)\n' +
+    '    at async Purchase.create (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:1362:12)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:80:22',
+  userId: 4,
+  ip: '::1',
+  userAgent: 'PostmanRuntime/7.45.0',
+  body: {
+    productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ]
+  },
+  level: 'error',
+  message: 'Error en POST /api/purchases: notNull Violation: Purchase.numero_factura cannot be null',
+  timestamp: '2025-08-21 17:00:53'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:00:53 +0000] "POST /api/purchases HTTP/1.1" 400 190 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:00:53'
+}
+{
+  message: 'POST /api/purchases - 400 - 125ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:00:53'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:01:26 +0000] "GET /api/purchases HTTP/1.1" 200 159 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:01:26'
+}
+{
+  message: 'GET /api/purchases - 200 - 417ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:01:26'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:01:35 +0000] "GET /api/purchases/1 HTTP/1.1" 404 50 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:01:35'
+}
+{
+  message: 'GET /api/purchases/1 - 404 - 156ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:01:35'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:01:40 +0000] "GET /api/purchases/history HTTP/1.1" 404 50 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:01:40'
+}
+{
+  message: 'GET /api/purchases/history - 404 - 39ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:01:40'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:08:02'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:08:04'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 17:08:08'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 17:08:08'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 17:08:08'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 17:08:08'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:11:19'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:11:19'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 17:11:21'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 17:11:21'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 17:11:21'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 17:11:21'
+}
+{
+  message: 'Iniciando compra para usuario 4 con 2 productos',
+  level: 'info',
+  timestamp: '2025-08-21 17:12:04'
+}
+{
+  message: 'Generando compra con número de factura: FAC-1755814324380-292',
+  level: 'info',
+  timestamp: '2025-08-21 17:12:04'
+}
+{
+  message: 'Compra creada con ID: 1, Factura: FAC-1755814324380-292',
+  level: 'info',
+  timestamp: '2025-08-21 17:12:04'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:12:34 +0000] "POST /api/purchases HTTP/1.1" - - "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:12:34'
+}
+{
+  error: 'Lock wait timeout exceeded; try restarting transaction',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.update (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:355:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2490:35)\n' +
+    '    at async Product.reducirStock (D:\\inventario-api\\src\\models\\Product.js:120:3)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:126:9',
+  userId: 4,
+  productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ],
+  level: 'error',
+  message: 'Error al crear compra:',
+  timestamp: '2025-08-21 17:12:55'
+}
+{
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.update (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:355:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2490:35)\n' +
+    '    at async Product.reducirStock (D:\\inventario-api\\src\\models\\Product.js:120:3)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:126:9',
+  userId: 4,
+  ip: '::1',
+  userAgent: 'PostmanRuntime/7.45.0',
+  body: {
+    productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ]
+  },
+  level: 'error',
+  message: 'Error en POST /api/purchases: Lock wait timeout exceeded; try restarting transaction',
+  timestamp: '2025-08-21 17:12:55'
+}
+{
+  message: 'Consultando compras para usuario juan.admin@empresa.com - Página 1 de 0',
+  level: 'info',
+  timestamp: '2025-08-21 17:13:49'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:13:49 +0000] "GET /api/purchases HTTP/1.1" 200 198 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:13:49'
+}
+{
+  message: 'GET /api/purchases - 200 - 30ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:13:49'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:14:06 +0000] "GET /api/purchases/1 HTTP/1.1" 404 132 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:14:06'
+}
+{
+  message: 'GET /api/purchases/1 - 404 - 14ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:14:06'
+}
+{
+  message: 'Reporte de ventas generado por admin juan.admin@empresa.com - 0 compras consultadas',
+  level: 'info',
+  timestamp: '2025-08-21 17:14:39'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:14:39 +0000] "GET /api/purchases/admin/sales HTTP/1.1" 200 252 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:14:39'
+}
+{
+  message: 'GET /api/purchases/admin/sales - 200 - 16ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:14:39'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:26'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:26'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:28'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:28'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:28'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:28'
+}
+{
+  message: 'Iniciando compra para usuario 4 con 2 productos',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:44'
+}
+{
+  message: 'Generando compra con número de factura: FAC-1755814724606-029',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:44'
+}
+{
+  message: 'Compra creada con ID: 2, Factura: FAC-1755814724606-029',
+  level: 'info',
+  timestamp: '2025-08-21 17:18:44'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:19:14 +0000] "POST /api/purchases HTTP/1.1" - - "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:19:14'
+}
+{
+  error: 'Lock wait timeout exceeded; try restarting transaction',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.update (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:355:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2490:35)\n' +
+    '    at async Product.reducirStock (D:\\inventario-api\\src\\models\\Product.js:120:3)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:126:9',
+  userId: 4,
+  productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ],
+  level: 'error',
+  message: 'Error al crear compra:',
+  timestamp: '2025-08-21 17:19:34'
+}
+{
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.update (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:355:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2490:35)\n' +
+    '    at async Product.reducirStock (D:\\inventario-api\\src\\models\\Product.js:120:3)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:126:9',
+  userId: 4,
+  ip: '::1',
+  userAgent: 'PostmanRuntime/7.45.0',
+  body: {
+    productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ]
+  },
+  level: 'error',
+  message: 'Error en POST /api/purchases: Lock wait timeout exceeded; try restarting transaction',
+  timestamp: '2025-08-21 17:19:34'
+}
+{
+  message: 'Consultando compras para usuario juan.admin@empresa.com - Página 1 de 0',
+  level: 'info',
+  timestamp: '2025-08-21 17:21:42'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:21:42 +0000] "GET /api/purchases HTTP/1.1" 200 198 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:21:42'
+}
+{
+  message: 'GET /api/purchases - 200 - 36ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:21:42'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:09'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:22:09 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:09'
+}
+{
+  message: 'POST /api/auth/login - 200 - 135ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:09'
+}
+{
+  message: 'Consultando compras para usuario juan.admin@empresa.com - Página 1 de 0',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:49'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:22:49 +0000] "GET /api/purchases HTTP/1.1" 200 198 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:49'
+}
+{
+  message: 'GET /api/purchases - 200 - 18ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:49'
+}
+{
+  message: 'Consultando compras para usuario juan.admin@empresa.com - Página 1 de 0',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:55'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:22:55 +0000] "GET /api/purchases HTTP/1.1" 200 198 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:55'
+}
+{
+  message: 'GET /api/purchases - 200 - 11ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:22:55'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:23:10 +0000] "GET /api/purchases/1 HTTP/1.1" 404 132 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:23:10'
+}
+{
+  message: 'GET /api/purchases/1 - 404 - 22ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:23:10'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:26:55'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:26:55'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 17:26:58'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 17:26:58'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 17:26:58'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 17:26:58'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:27:10'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:27:10'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 17:27:14'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 17:27:14'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 17:27:14'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 17:27:14'
+}
+{
+  message: 'Iniciando compra para usuario 4 con 2 productos',
+  level: 'info',
+  timestamp: '2025-08-21 17:38:05'
+}
+{
+  message: 'Generando compra con número de factura: FAC-1755815885812-952',
+  level: 'info',
+  timestamp: '2025-08-21 17:38:05'
+}
+{
+  message: 'Compra creada con ID: 5, Factura: FAC-1755815885812-952',
+  level: 'info',
+  timestamp: '2025-08-21 17:38:05'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:38:35 +0000] "POST /api/purchases HTTP/1.1" - - "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:38:35'
+}
+{
+  error: 'Lock wait timeout exceeded; try restarting transaction',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.update (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:355:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2490:35)\n' +
+    '    at async Product.reducirStock (D:\\inventario-api\\src\\models\\Product.js:120:3)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:126:9',
+  userId: 4,
+  productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ],
+  level: 'error',
+  message: 'Error al crear compra:',
+  timestamp: '2025-08-21 17:38:56'
+}
+{
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.update (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:355:12)\n' +
+    '    at async model.save (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:2490:35)\n' +
+    '    at async Product.reducirStock (D:\\inventario-api\\src\\models\\Product.js:120:3)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:126:9',
+  userId: 4,
+  ip: '::1',
+  userAgent: 'PostmanRuntime/7.45.0',
+  body: {
+    productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ]
+  },
+  level: 'error',
+  message: 'Error en POST /api/purchases: Lock wait timeout exceeded; try restarting transaction',
+  timestamp: '2025-08-21 17:38:56'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:44:21'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:44:21'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_72`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_72`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_72`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_72`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_72`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:44:22'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:45:06'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:45:06'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:45:06'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:45:06'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:45:06'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_74`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_74`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_74`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_74`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_74`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:45:07'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:46:22'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:46:22'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:46:22'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:46:22'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:46:22'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_77`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_77`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_77`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_77`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_77`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:46:23'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:46:58'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:46:58'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:46:58'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:46:58'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:46:58'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7b`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7b`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7b`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7b`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7b`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:46:59'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:47:22'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:47:22'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:47:22'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:47:22'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:47:22'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7d`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7d`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7d`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7d`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_7d`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:47:23'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:48:03'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:48:04'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:48:04'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:48:04'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:48:04'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_80`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_80`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_80`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_80`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_80`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:48:05'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:48:35'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:48:35'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:48:35'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:48:35'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:48:35'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_83`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_83`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_83`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_83`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_83`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:48:36'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:51:41'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:51:41'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_86`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_86`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_86`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_86`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_86`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:51:42'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:52:12'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:52:12'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_89`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_89`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_89`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_89`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_89`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:52:12'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:54:42'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:54:42'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:54:42'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:54:42'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:54:42'
+}
+{
+  name: 'SequelizeForeignKeyConstraintError',
+  parent: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_8c`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_8c`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  original: Error: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_8c`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+      at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_8c`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+    sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE `purchases` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;',
+  parameters: {},
+  table: 'users',
+  fields: [ 'user_id' ],
+  value: undefined,
+  index: 'purchases_ibfk_1',
+  reltype: 'child',
+  level: 'error',
+  message: 'Error al iniciar servidor: Cannot add or update a child row: a foreign key constraint fails (`inventario_db`.`#sql-18cc_8c`, CONSTRAINT `purchases_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async Purchase.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\model.js:984:11)\n' +
+    '    at async Sequelize.sync (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:377:9)\n' +
+    '    at async startServer (D:\\inventario-api\\src\\app.js:89:7)',
+  timestamp: '2025-08-21 17:54:42'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:57:20'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:57:20'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:57:20'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:57:20'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 17:57:20'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 17:57:23'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 17:57:23'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 17:57:23'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 17:57:23'
+}
+{
+  error: Error
+      at Query.run (D:\inventario-api\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+      at D:\inventario-api\node_modules\sequelize\lib\sequelize.js:315:28
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async MySQLQueryInterface.setIsolationLevel (D:\inventario-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:517:12)
+      at async Transaction.begin (D:\inventario-api\node_modules\sequelize\lib\transaction.js:114:5)
+      at async Transaction.prepareEnvironment (D:\inventario-api\node_modules\sequelize\lib\transaction.js:89:7)
+      at async Sequelize.transaction (D:\inventario-api\node_modules\sequelize\lib\sequelize.js:500:7)
+      at async D:\inventario-api\src\routes\purchases.js:23:23 {
+    name: 'SequelizeDatabaseError',
+    parent: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    original: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+    parameters: {}
+  },
+  level: 'error',
+  message: "unhandledRejection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1\n" +
+    'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:23:23',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:23:23',
+  rejection: true,
+  date: 'Thu Aug 21 2025 17:57:27 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 11676,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 86421504,
+      heapTotal: 61366272,
+      heapUsed: 28792920,
+      external: 1352433,
+      arrayBuffers: 83775
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 31434.937 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js',
+      function: 'Query.run',
+      line: 52,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: null,
+      line: 315,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js',
+      function: 'async MySQLQueryInterface.setIsolationLevel',
+      line: 517,
+      method: 'setIsolationLevel',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.begin',
+      line: 114,
+      method: 'begin',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.prepareEnvironment',
+      line: 89,
+      method: 'prepareEnvironment',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: 'async Sequelize.transaction',
+      line: 500,
+      method: 'transaction',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'async D:\\inventario-api\\src\\routes\\purchases.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 17:57:27'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:35'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:36'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:38'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:38'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:38'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:38'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:42'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:58:42 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:42'
+}
+{
+  message: 'POST /api/auth/login - 200 - 103ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:58:42'
+}
+{
+  message: '::1 - - [21/Aug/2025:22:59:02 +0000] "GET /api/purchases/1 HTTP/1.1" 404 74 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 17:59:02'
+}
+{
+  message: 'GET /api/purchases/1 - 404 - 4ms',
+  level: 'info',
+  timestamp: '2025-08-21 17:59:02'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:03:45 +0000] "POST /api/auth/register HTTP/1.1" 400 86 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:03:45'
+}
+{
+  message: 'POST /api/auth/register - 400 - 2ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:03:45'
+}
+{
+  message: 'Login exitoso para usuario: maria@gmail.com',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:01'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:04:01 +0000] "POST /api/auth/login HTTP/1.1" 200 373 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:01'
+}
+{
+  message: 'POST /api/auth/login - 200 - 237ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:01'
+}
+{
+  message: 'Iniciando compra para usuario 4 con 2 productos',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:48'
+}
+{
+  message: 'Generando compra con número de factura: FAC-1755817488963-228',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:48'
+}
+{
+  message: 'Compra creada con ID: 6, Factura: FAC-1755817488963-228',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:48'
+}
+{
+  error: 'product is not defined',
+  stack: 'ReferenceError: product is not defined\n' +
+    '    at D:\\inventario-api\\src\\routes\\purchases.js:114:7\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  userId: 4,
+  productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ],
+  level: 'error',
+  message: 'Error al crear compra:',
+  timestamp: '2025-08-21 18:04:48'
+}
+{
+  stack: 'ReferenceError: product is not defined\n' +
+    '    at D:\\inventario-api\\src\\routes\\purchases.js:114:7\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  userId: 4,
+  ip: '::1',
+  userAgent: 'PostmanRuntime/7.45.0',
+  body: {
+    productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ]
+  },
+  level: 'error',
+  message: 'Error en POST /api/purchases: product is not defined',
+  timestamp: '2025-08-21 18:04:49'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:04:49 +0000] "POST /api/purchases HTTP/1.1" 500 127 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:49'
+}
+{
+  message: 'POST /api/purchases - 500 - 65ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:04:49'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:05:00 +0000] "GET /api/products HTTP/1.1" 200 2244 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:05:00'
+}
+{
+  message: 'GET /api/products - 200 - 32ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:05:00'
+}
+{
+  message: 'Iniciando compra para usuario 4 con 2 productos',
+  level: 'info',
+  timestamp: '2025-08-21 18:05:18'
+}
+{
+  message: 'Generando compra con número de factura: FAC-1755817518096-198',
+  level: 'info',
+  timestamp: '2025-08-21 18:05:18'
+}
+{
+  message: 'Compra creada con ID: 7, Factura: FAC-1755817518096-198',
+  level: 'info',
+  timestamp: '2025-08-21 18:05:18'
+}
+{
+  error: 'product is not defined',
+  stack: 'ReferenceError: product is not defined\n' +
+    '    at D:\\inventario-api\\src\\routes\\purchases.js:114:7\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  userId: 4,
+  productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ],
+  level: 'error',
+  message: 'Error al crear compra:',
+  timestamp: '2025-08-21 18:05:18'
+}
+{
+  stack: 'ReferenceError: product is not defined\n' +
+    '    at D:\\inventario-api\\src\\routes\\purchases.js:114:7\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  userId: 4,
+  ip: '::1',
+  userAgent: 'PostmanRuntime/7.45.0',
+  body: {
+    productos: [ { product_id: 9, cantidad: 2 }, { product_id: 8, cantidad: 1 } ]
+  },
+  level: 'error',
+  message: 'Error en POST /api/purchases: product is not defined',
+  timestamp: '2025-08-21 18:05:18'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:05:18 +0000] "POST /api/purchases HTTP/1.1" 500 127 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:05:18'
+}
+{
+  message: 'POST /api/purchases - 500 - 42ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:05:18'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:07:55'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:07:55'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:07:57'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:07:57'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:07:57'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:07:57'
+}
+{
+  message: 'Iniciando compra para usuario 4 con 2 productos',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: 'Número de factura generado: FAC-1755817682747-325',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: 'Compra creada con ID: 8, Factura: FAC-1755817682747-325',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: 'Stock actualizado para producto 9: 3 restantes',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: 'Stock actualizado para producto 8: 7 restantes',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: 'Compra completada exitosamente: FAC-1755817682747-325 por usuario maria@gmail.com - Total: $2759.97',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:08:02 +0000] "POST /api/purchases HTTP/1.1" 201 980 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: 'POST /api/purchases - 201 - 87ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:02'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:08:17 +0000] "GET /api/purchases HTTP/1.1" 200 1073 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:17'
+}
+{
+  message: 'GET /api/purchases - 200 - 163ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:17'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:08:48 +0000] "GET /api/purchases/8 HTTP/1.1" 200 1085 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:48'
+}
+{
+  message: 'GET /api/purchases/8 - 200 - 21ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:08:48'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:09:03 +0000] "GET /api/purchases/history HTTP/1.1" 400 109 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:09:03'
+}
+{
+  message: 'GET /api/purchases/history - 400 - 10ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:09:03'
+}
+{
+  message: 'Acceso denegado para usuario maria@gmail.com con rol cliente',
+  level: 'warn',
+  timestamp: '2025-08-21 18:09:52'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:09:52 +0000] "GET /api/purchases/admin/sales HTTP/1.1" 403 75 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:09:52'
+}
+{
+  message: 'GET /api/purchases/admin/sales - 403 - 11ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:09:52'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 18:10:04'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:10:04 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:10:04'
+}
+{
+  message: 'POST /api/auth/login - 200 - 217ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:10:04'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:10:22 +0000] "GET /api/purchases/admin/sales HTTP/1.1" 200 1447 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:10:22'
+}
+{
+  message: 'GET /api/purchases/admin/sales - 200 - 25ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:10:22'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:00'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 18:21:01'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 18:21:01'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:01'
+}
+{
+  level: 'error',
+  message: "Error configurando sesión MySQL: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper",
+  stack: "Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper\n" +
+    '    at Query.then (D:\\inventario-api\\node_modules\\mysql2\\lib\\commands\\query.js:44:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2025-08-21 18:21:01'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:04'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:04'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:04'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:04'
+}
+{
+  error: Error
+      at Query.run (D:\inventario-api\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+      at D:\inventario-api\node_modules\sequelize\lib\sequelize.js:315:28
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async MySQLQueryInterface.setIsolationLevel (D:\inventario-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:517:12)
+      at async Transaction.begin (D:\inventario-api\node_modules\sequelize\lib\transaction.js:114:5)
+      at async Transaction.prepareEnvironment (D:\inventario-api\node_modules\sequelize\lib\transaction.js:89:7)
+      at async Sequelize.transaction (D:\inventario-api\node_modules\sequelize\lib\sequelize.js:500:7)
+      at async D:\inventario-api\src\routes\purchases.js:19:23 {
+    name: 'SequelizeDatabaseError',
+    parent: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    original: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+    parameters: {}
+  },
+  level: 'error',
+  message: "unhandledRejection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1\n" +
+    'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  rejection: true,
+  date: 'Thu Aug 21 2025 18:21:19 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 21240,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 62853120,
+      heapTotal: 27095040,
+      heapUsed: 25386064,
+      external: 1428321,
+      arrayBuffers: 162366
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 32867.812 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js',
+      function: 'Query.run',
+      line: 52,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: null,
+      line: 315,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js',
+      function: 'async MySQLQueryInterface.setIsolationLevel',
+      line: 517,
+      method: 'setIsolationLevel',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.begin',
+      line: 114,
+      method: 'begin',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.prepareEnvironment',
+      line: 89,
+      method: 'prepareEnvironment',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: 'async Sequelize.transaction',
+      line: 500,
+      method: 'transaction',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'async D:\\inventario-api\\src\\routes\\purchases.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 18:21:19'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:33'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:33'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:35'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:35'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:35'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:21:35'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:22:26'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:22:26'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:22:28'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:22:28'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:22:28'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:22:28'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:23:56'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:23:56'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:23:58'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:23:58'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:23:58'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:23:58'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:21'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:21'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:23'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:23'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:23'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:23'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:41'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:41'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:43'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:43'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:43'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:26:43'
+}
+{
+  error: Error
+      at Query.run (D:\inventario-api\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+      at D:\inventario-api\node_modules\sequelize\lib\sequelize.js:315:28
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async MySQLQueryInterface.setIsolationLevel (D:\inventario-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:517:12)
+      at async Transaction.begin (D:\inventario-api\node_modules\sequelize\lib\transaction.js:114:5)
+      at async Transaction.prepareEnvironment (D:\inventario-api\node_modules\sequelize\lib\transaction.js:89:7)
+      at async Sequelize.transaction (D:\inventario-api\node_modules\sequelize\lib\sequelize.js:500:7)
+      at async D:\inventario-api\src\routes\purchases.js:19:23 {
+    name: 'SequelizeDatabaseError',
+    parent: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    original: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1
+        at Packet.asError (D:\inventario-api\node_modules\mysql2\lib\packets\packet.js:740:17)
+        at Query.execute (D:\inventario-api\node_modules\mysql2\lib\commands\command.js:29:26)
+        at Connection.handlePacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:475:34)
+        at PacketParser.onPacket (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:93:12)
+        at PacketParser.executeStart (D:\inventario-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+        at Socket.<anonymous> (D:\inventario-api\node_modules\mysql2\lib\base\connection.js:100:25)
+        at Socket.emit (node:events:517:28)
+        at addChunk (node:internal/streams/readable:368:12)
+        at readableAddChunk (node:internal/streams/readable:341:9)
+        at Readable.push (node:internal/streams/readable:278:10) {
+      code: 'ER_PARSE_ERROR',
+      errno: 1064,
+      sqlState: '42000',
+      sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1",
+      sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+      parameters: undefined
+    },
+    sql: 'SET TRANSACTION ISOLATION LEVEL READ_COMMITTED;',
+    parameters: {}
+  },
+  level: 'error',
+  message: "unhandledRejection: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'READ_COMMITTED' at line 1\n" +
+    'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  stack: 'Error\n' +
+    '    at Query.run (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n' +
+    '    at D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async MySQLQueryInterface.setIsolationLevel (D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:517:12)\n' +
+    '    at async Transaction.begin (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:114:5)\n' +
+    '    at async Transaction.prepareEnvironment (D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js:89:7)\n' +
+    '    at async Sequelize.transaction (D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js:500:7)\n' +
+    '    at async D:\\inventario-api\\src\\routes\\purchases.js:19:23',
+  rejection: true,
+  date: 'Thu Aug 21 2025 18:27:11 GMT-0500 (hora estándar de Colombia)',
+  process: {
+    pid: 2148,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\inventario-api',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.0',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'D:\\inventario-api\\src\\app.js'
+    ],
+    memoryUsage: {
+      rss: 63258624,
+      heapTotal: 27357184,
+      heapUsed: 25309816,
+      external: 1428321,
+      arrayBuffers: 162366
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 33219.656 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js',
+      function: 'Query.run',
+      line: 52,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: null,
+      line: 315,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js',
+      function: 'async MySQLQueryInterface.setIsolationLevel',
+      line: 517,
+      method: 'setIsolationLevel',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.begin',
+      line: 114,
+      method: 'begin',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\transaction.js',
+      function: 'async Transaction.prepareEnvironment',
+      line: 89,
+      method: 'prepareEnvironment',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\inventario-api\\node_modules\\sequelize\\lib\\sequelize.js',
+      function: 'async Sequelize.transaction',
+      line: 500,
+      method: 'transaction',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'async D:\\inventario-api\\src\\routes\\purchases.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2025-08-21 18:27:11'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:23'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:23'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:27'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:28'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:30'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:30'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:30'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:27:30'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:28:51'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:28:51'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:28:54'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:28:54'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:28:54'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:28:54'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:30:55'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:30:55'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:30:58'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:30:58'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:30:58'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:30:58'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:31:01'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:31:56'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:31:56'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:31:59'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:31:59'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:31:59'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:31:59'
+}
+{
+  message: 'Iniciando compra para usuario 4 con 2 productos',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: 'Número de factura generado: FAC-1755819122034-949',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: 'Compra creada con ID: 9, Factura: FAC-1755819122034-949',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: 'Stock actualizado para producto 7: 73 restantes',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: 'Stock actualizado para producto 4: 11 restantes',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: 'Compra completada exitosamente: FAC-1755819122034-949 por usuario maria@gmail.com - Total: $206.99',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:32:02 +0000] "POST /api/purchases HTTP/1.1" 201 982 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: 'POST /api/purchases - 201 - 73ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:02'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:32:07 +0000] "GET /api/purchases HTTP/1.1" 200 1951 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:07'
+}
+{
+  message: 'GET /api/purchases - 200 - 21ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:07'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:32:12 +0000] "GET /api/purchases/history HTTP/1.1" 400 109 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:12'
+}
+{
+  message: 'GET /api/purchases/history - 400 - 9ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:32:12'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:21'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:21'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:22'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:22'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:22'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:22'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:35:30 +0000] "GET /api/purchases/history HTTP/1.1" 400 109 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:30'
+}
+{
+  message: 'GET /api/purchases/history - 400 - 20ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:35:30'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:08'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:08'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:10'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:10'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:10'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:10'
+}
+{
+  message: 'Login exitoso para usuario: maria@gmail.com',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:48'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:36:48 +0000] "POST /api/auth/login HTTP/1.1" 200 373 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:48'
+}
+{
+  message: 'POST /api/auth/login - 200 - 117ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:36:48'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:37:07 +0000] "GET /api/purchases/history HTTP/1.1" 400 109 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:37:07'
+}
+{
+  message: 'GET /api/purchases/history - 400 - 9ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:37:07'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:38:15 +0000] "GET /api/purchases/history HTTP/1.1" 400 109 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 18:38:15'
+}
+{
+  message: 'GET /api/purchases/history - 400 - 6ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:38:15'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:40'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:40'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:41'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:41'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:41'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:41'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:48'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:48'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:49'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:49'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:49'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:49'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:52'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:52'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:54'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:54'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:54'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:54'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:41:55 +0000] "GET /api/purchases/history HTTP/1.1" 200 1540 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:55'
+}
+{
+  message: 'GET /api/purchases/history - 200 - 60ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:41:55'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:40'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:40'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:42'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:42'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:42'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:42'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:42:47 +0000] "GET /api/products HTTP/1.1" 200 2244 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:47'
+}
+{
+  message: 'GET /api/products - 200 - 33ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:47'
+}
+{
+  message: 'Acceso denegado para usuario maria@gmail.com con rol cliente',
+  level: 'warn',
+  timestamp: '2025-08-21 18:42:56'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:42:56 +0000] "PUT /api/products/1 HTTP/1.1" 403 75 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:56'
+}
+{
+  message: 'PUT /api/products/1 - 403 - 8ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:42:56'
+}
+{
+  message: 'Acceso denegado para usuario maria@gmail.com con rol cliente',
+  level: 'warn',
+  timestamp: '2025-08-21 18:43:10'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:43:10 +0000] "DELETE /api/products/1 HTTP/1.1" 403 75 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:43:10'
+}
+{
+  message: 'DELETE /api/products/1 - 403 - 6ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:43:10'
+}
+{
+  message: 'Login exitoso para usuario: juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 18:45:38'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:45:38 +0000] "POST /api/auth/login HTTP/1.1" 200 374 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:45:38'
+}
+{
+  message: 'POST /api/auth/login - 200 - 146ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:45:38'
+}
+{
+  message: 'Producto actualizado exitosamente: Laptop HP Pavilion 15.6" por usuario juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:07'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:46:07 +0000] "PUT /api/products/1 HTTP/1.1" 200 399 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:07'
+}
+{
+  message: 'PUT /api/products/1 - 200 - 31ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:07'
+}
+{
+  message: 'Producto eliminado exitosamente: Laptop HP Pavilion 15.6" por usuario juan.admin@empresa.com',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:22'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:46:22 +0000] "DELETE /api/products/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:22'
+}
+{
+  message: 'DELETE /api/products/1 - 200 - 18ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:22'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:46:39 +0000] "GET /api/purchases/admin/sales?startDate=2024-01-01&endDate=2024-01-31 HTTP/1.1" 200 250 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:39'
+}
+{
+  message: 'GET /api/purchases/admin/sales?startDate=2024-01-01&endDate=2024-01-31 - 200 - 18ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:46:39'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:50:15 +0000] "GET /api/purchases/admin/sales?startDate=2025-08-21&endDate=2025-08-21 HTTP/1.1" 200 2641 "-" "PostmanRuntime/7.45.0"',
+  level: 'info',
+  timestamp: '2025-08-21 18:50:15'
+}
+{
+  message: 'GET /api/purchases/admin/sales?startDate=2025-08-21&endDate=2025-08-21 - 200 - 16ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:50:15'
+}
+{
+  message: 'Documentación Swagger cargada desde YAML',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:42'
+}
+{
+  message: 'Conexión a la base de datos establecida correctamente',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:42'
+}
+{
+  message: 'Modelos sincronizados con la base de datos',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:45'
+}
+{
+  message: '🚀 Servidor iniciado en http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:45'
+}
+{
+  message: '📚 Docs en http://localhost:3000/api-docs',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:45'
+}
+{
+  message: '🏥 Health check en http://localhost:3000/api/health',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:45'
+}
+{
+  message: '::1 - - [21/Aug/2025:23:57:55 +0000] "GET /api/health HTTP/1.1" 200 120 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:55'
+}
+{
+  message: 'GET /api/health - 200 - 9ms',
+  level: 'info',
+  timestamp: '2025-08-21 18:57:55'
+}
